@@ -1,5 +1,7 @@
 /* This file will hold the main styles for your website. */
+/*
 @import url('./fonts.css');
+*/
 
 body {
   background-color: #eee;
@@ -19,6 +21,7 @@ body {
 
 /** Branding Section **/
 div#zone-branding {
+  padding: 10px 0 10px 0;
   background-color: #000;
 }
 
@@ -30,14 +33,18 @@ div#zone-branding {
   color: #fff;
 }
 
+.site-name {
+  margin-top: 0;
+}
+
 /** Menu Section **/
 div#region-menu {
   background-color: #fff;
   height: 40px;
 }
+
 #region-menu a {
   margin: 10px 0 0 0;
-  padding: 0 10px 10px 10px;
 }
 
 #region-menu a:hover {
@@ -47,5 +54,4 @@ div#region-menu {
 /** Footer Section **/
 div#zone-footer {
   background-color: #000;
-
 }

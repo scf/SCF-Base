@@ -1,8 +1,8 @@
 /**
  * Global
 */
-body, a, p, h1,h2,h3,h4,h5 {
- font-family: "Helvetica Neue", Arial, sans-serif;
+body, a, p, h1,h2,h3,h4,h5,h6 {
+ font-family: "Helvetica Neue", Arial, Verdana, sans-serif;
  color: #000;
 }
 
@@ -26,12 +26,28 @@ a:active {
  * Headings
 */
 h1 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 h2, h2.node-title {
   font-size: 14px;
   font-weight: bold;
+}
+
+/**
+ * Branding
+*/
+h1.site-name, h2.site-name {
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+}
+
+.site-slogan {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding-top: 10px;
+  font-weight: normal;
 }
 
 /**
